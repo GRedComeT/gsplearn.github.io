@@ -6,7 +6,7 @@ let dio_jojo2 = document.querySelector('#dio2');
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/e6499ec033e1b69c4e4cee8aaf8575ba1534629271_full.png'){
-        myImage.setAttribute('src', 'images/dio.jpg')
+        myImage.setAttribute('src', 'images/dio.gif')
         dio_jojo.style.display = 'none';
         dio_jojo2.style.display = 'block';
     } else {
